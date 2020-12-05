@@ -10,3 +10,5 @@ This script will create `model` directory.
 
 ### To generate text:
 ```python run_generation.py --model_type=gpt2 --model_name_or_path=model --length=300 --prompt="<BOS>" --stop_token="<EOS>" --k=50 --num_return_sequences=10```
+
+reference: https://github.com/itsuncheng/fine-tuning-GPT2
