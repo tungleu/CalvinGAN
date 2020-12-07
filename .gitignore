@@ -138,3 +138,4 @@ dmypy.json
 cython_debug/
 .idea
 gpt-2/model
+gpt-2/runs
