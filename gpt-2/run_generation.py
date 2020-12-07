@@ -242,7 +242,7 @@ def main():
         output_sequences.squeeze_()
 
     generated_sequences = []
-
+    file = open("generated_text", "w")
     for generated_sequence_idx, generated_sequence in enumerate(output_sequences):
         print("=== GENERATED SEQUENCE {} ===".format(generated_sequence_idx + 1))
         generated_sequence = generated_sequence.tolist()
@@ -259,8 +259,9 @@ def main():
         )
 
         generated_sequences.append(total_sequence)
+        file.write(total_sequence+"\n")
         print(total_sequence)
-
+    file.close()
     return generated_sequences
 
 
