@@ -16,6 +16,8 @@ https://github.com/genericalexacc/CalvinGAN
 
 ### Python environment set up 
 ```pip install -r requirements.txt```
+### Download dataset 
+https://drive.google.com/file/d/1weboGcbpHxc7momIMJGddVQs5bKHjWUD/view?usp=sharing
 ### Run the notebook in this following order
 1. text_extract.ipynb
 This will give generate a raw text dataset `text_data.txt` from comic panels images dataset
