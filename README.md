@@ -2,7 +2,8 @@
 
 
 Our code submission contains the following files: 
-
+### For GAN training 
+https://github.com/genericalexacc/CalvinGAN
 ### `gpt-2` folder 
 `./gpt-2/preprocess.ipynb` <--- notebook to generate train/validate/test dataset <br />
 `./gpt-2/requirements.txt` <--- list of dependencies 
