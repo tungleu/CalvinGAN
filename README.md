@@ -1,7 +1,6 @@
 # README for G41
 
-
-Our code submission contains the following files: 
+This README is for GPT-2 part of CalvinGAN project
 ### For GAN training 
 https://github.com/genericalexacc/CalvinGAN
 ### `gpt-2` folder 
